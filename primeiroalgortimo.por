@@ -11,7 +11,8 @@ fimalgoritmo
 
 // Variáveis são espaços. Se já tivermos uma variável preenchida com um valor, teremos que criar outra variável para caber o própximo valor. Esses espaços são preenchidos na memória
 
-
+//comando de entrada: entrar com dados
+//comando de saída: devolve dados
 var
 identificador: tipo
 
@@ -57,4 +58,16 @@ varmsg: caractereinicio
 msg <- "Ola, Mundo!"
 Escreval("Mensagem ", msg)
 fimdoalgoritmo
+
+//Utilizando atribuições
+//Algortimo: "MeuNome"
+//var
+//Nome: Caractere
+//Inicio
+Nome <- "Gustavo" //a variável Nome recebe sua atribuição Gustavo
+Escreva("Muito prazer ", Nome) //comando de saída, escreve "muito prazer"e o nome da variável Nome
+//fim do algoritmo 
+Escreva("Digite seu nome: ")
+Leia(Nome)
+Escreva("Muito prazer, ", Nome)
 
