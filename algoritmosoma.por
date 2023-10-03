@@ -1,4 +1,4 @@
-algoritmo "nomenome"
+algoritmo "valores"
 var
 N1, N2, S
 inicio
@@ -21,4 +21,10 @@ fimalgoritmo
 // B <- 2
 
 //Ordem de precedência:
+//Primeiro: () parênteses
+// ^ exponenciação
+// * e / multiplicação e divisão
+// + e - soma e subtração
+
+
 
